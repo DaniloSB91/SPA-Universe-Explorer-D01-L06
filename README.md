@@ -10,3 +10,11 @@ Abordado nesse desafio:
 - Classes e muito mais.
 
 ![Capa](https://user-images.githubusercontent.com/66186042/172252055-378e3c07-b3cb-4958-a3fa-8a65efccddfb.png)
+
+Projeto possui servidor NODE.JS  - [Lite-Server](https://www.npmjs.com/package/lite-server)
+
+
+Iniciar servidor 
+```bash
+npm start
+```

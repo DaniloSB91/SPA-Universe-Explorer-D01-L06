@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --wallpaper1: url('imgs/universe-1.png');
+    --wallpaper2: url('imgs/universe-2.png');
+    --wallpaper3: url('imgs/universe-3.png');
+
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    background-image: var(--wallpaper1);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav {
+    font-weight: 400;
+    font-size: 2.4rem;
+
+
+    display: flex;
+
+    align-items: center;
+    height: 12rem;
+    gap: 4.3rem;
+    padding-left: 7.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:active {
+    font-weight: bold;
+}
+
+#content {
+    color: #E1E1E6;
+    margin-top: 6.4rem;
+    max-width: 64.8rem;
+
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10.2rem;
+    gap: 1.6rem;
+}
+
+#content p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+#content h1 {
+    font-size: 4.8rem;
+}
+
+#content button {
+    background-color: transparent;
+    color: #E1E1E6;
+
+    text-transform: uppercase;
+
+    width: 195px;
+    height: 48px;
+    left: 542px;
+    top: 378px;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}

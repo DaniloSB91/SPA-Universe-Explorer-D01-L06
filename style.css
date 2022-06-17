@@ -23,6 +23,8 @@ body {
     display: flex;
     flex-direction: column;
 
+   
+
 }
 
 nav {
@@ -36,6 +38,8 @@ nav {
     height: 12rem;
     gap: 4.3rem;
     padding-left: 7.2rem;
+
+    
 }
 
 nav a {
@@ -43,14 +47,11 @@ nav a {
     color: #fff;
 }
 
-nav a:active {
-    font-weight: bold;
-}
 
 #content {
     color: #E1E1E6;
-    margin-top: 6.4rem;
-    max-width: 64.8rem;
+   
+  
 
 }
 
@@ -58,22 +59,32 @@ nav a:active {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 10.2rem;
+    
     gap: 1.6rem;
+
 }
 
 #content p {
     font-size: 1.8rem;
     font-weight: 400;
+    max-width: 64.8rem;
+    margin-left: 10rem;
+
 }
 
 #content h1 {
     font-size: 4.8rem;
+    margin-top: 6.3rem;
+    margin-left: 10rem;
+
 }
 
 #content button {
     background-color: transparent;
     color: #E1E1E6;
+
+    margin-left: 10rem;
+
 
     text-transform: uppercase;
 

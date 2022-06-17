@@ -37,10 +37,11 @@ export class Router{
             break ;
             default: console.log("404");
 
-        }
-        console.log(pathname)
+        }  
 
     }
+
+   
 
 
 }

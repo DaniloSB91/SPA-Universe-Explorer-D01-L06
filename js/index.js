@@ -13,6 +13,7 @@ router.add(404, "/pages/404.html")
 router.handle()
 router.change_background()
 
+
 window.onpopstate = () => router.handle()
 window.route = () => router.route()
 
